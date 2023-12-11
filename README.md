@@ -7,9 +7,10 @@ SystemGUI: Where all the graphic user interface is managed. Hierarchy: App contr
 In addition to that, there's a thread which sleeps every 300 milliseconds and withdraws DTO from the chosen simulation, so the user would be able to see its details.
 
 SystemInterface: Holds all the functions that the user willing to execute and running the whole related simulation.
-• SimulationExecutionManager: In charge of all the simulations, such as: providing their details as DTO, stopping/starting simulation, creating and setting details before running a simulation, etc. • SimulationExecutionDetails: Every execution that we run has its own simulation execution details which holds its properties and details. • SimulationRunner: A class that implements Runnable class. This class runs a simulation using a thread from the thread pool. In addition to these classes, we have classes for each detail in a simulation (rules, entities, environments, etc). Also – World class Holds the details of each entity, environment, property to be used in the simulation.
+• SimulationExecutionManager: In charge of all the simulations, such as: providing their details as DTO, stopping/starting simulation, creating and setting details before running a simulation, etc. 
+• SimulationExecutionDetails: Every execution that we run has its own simulation execution details which holds its properties and details. 
+• SimulationRunner: A class that implements Runnable class. This class runs a simulation using a thread from the thread pool. In addition to these classes, we have classes for each detail in a simulation (rules, entities, environments, etc). Also – World class Holds the details of each entity, environment, property to be used in the simulation.
 
-The simulation engine is divided into 3 main classes: SimulationRunner - Holds a runnable method which executed by threads from the threadpool. This runnable method is the simulation running for each execution. SimulationDetails - Each simulation that is executed gets its own SimulationDetails object. It holds all the entity instances, active environments, etc. SimulationManager - Holds all the simulations that have been executed, the world, manages the threadpool and of course transfers DTO details to the GUI.
 
-The GUI acknowledges the SimulationManager.
-*** Where we show the graph of population per ticks, we chose to show only every 1000 ticks and the x axis is up to 100. We chose that, because there's a lot of data loaded to the graph (many ticks pass), which makes the system work slow.
+*** Where we show the graph of population per ticks, we chose to show only every 1000 ticks and the x axis is up to 100.
+We chose that because there's a lot of data loaded to the graph (many ticks pass), which makes the system work slow.
