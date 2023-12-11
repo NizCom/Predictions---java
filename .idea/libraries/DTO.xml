@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="DTO">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Predictions/out/artifacts/DTO/DTO.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Predictions/out/artifacts/DTO/DTO.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Predictions/out/artifacts/DTO/DTO.jar!/DTO/simulated" />
+    </SOURCES>
+  </library>
+</component>

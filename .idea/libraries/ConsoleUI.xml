@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ConsoleUI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Predictions/out/artifacts/ConsoleUI/ConsoleUI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

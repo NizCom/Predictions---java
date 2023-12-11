@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SystemGUI">
+    <output-path>$PROJECT_DIR$/out/artifacts/SystemGUI</output-path>
+    <root id="archive" name="SystemGUI.jar">
+      <element id="module-output" name="SystemInterface" />
+      <element id="module-output" name="DTO" />
+      <element id="module-output" name="SystemGUI" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/SystemGUI/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
