@@ -1,3 +1,17 @@
+**Predictions:**
+
+Application that enables simulate complex scenarios and anticipate their outcome, based on applying set of rules and actions in a non determent approach.
+The system enables dynamic definition of entities structure and population, setup environment setting, and view results in various aspects.
+Developed in Java, including OOP design patterns, handling multithreads environment and concepts of event-oriented architecture.
+
+Key features
+
+* Concurrent execution of multiple simulations asynchronously and viewing their result continuously.
+* Dynamic definition of the simulation population and structure, environment setting, thread pool settings etc. (based on XML file)
+* The system is designed in light of the OCP concept and enables extension of its capabilities without impacting the overall code and structure.
+
+
+
 The system is combined of 3 modules:
 
 **DTO (Data Transfer Object):**
